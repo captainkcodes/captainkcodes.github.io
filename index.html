@@ -26,8 +26,8 @@
                 <br> or you can view my <a href="hobbies.html">hobbies</a>.</p>
                 <hr>
                 <p>You can also follow these links below to sign up for an account or log into an existing one: </p>
-                <input type="button" name="logbtn" value="Login">
-                <input type="button" name="regbtn" value="Register">
+                <input type="button" id="logbtn" name="logbtn" value="Login" onclick="{moveToLogin()}">
+                <input type="button" id="regbtn" name="regbtn" value="Register" onclick="{moveToReg()}">
             </div>
 
             <div class="foot">
@@ -35,4 +35,6 @@
             </div>
         </div>
     </body>
+
+    <script src="src/javascript/actions.js"></script>
 </html>
