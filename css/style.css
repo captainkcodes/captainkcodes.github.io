@@ -8,7 +8,7 @@
     background-color: darkviolet;
     color: white;
     text-align: center;
-    flex: 1;
+    flex: 2;
 }
 
 .nav, a, a:hover{
@@ -16,7 +16,7 @@
 }
 
 .maincont{
-
+    flex-direction: column;
 }
 
 .foot{
