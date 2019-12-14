@@ -1,6 +1,6 @@
 .container{
     font-family: monospace;
-    
+    text-align: center;
 }
 
 .header{
@@ -19,5 +19,6 @@
 }
 
 .foot{
-
+    position: -webkit-sticky;
+    text-align: center;
 }
