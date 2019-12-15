@@ -26,12 +26,12 @@
 input[type=email],
 input[type=password],
 input[type=text]{
-    width: 100%;
+    width: 50%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: darkviolet;
+    background: none;
 }
 
 input[type=email]:focus,
